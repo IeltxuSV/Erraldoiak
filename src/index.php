@@ -8,5 +8,12 @@
 </head>
 <body>
     <h1>Erraldoiak</h1>
+
+    <div class="estekak">
+        <a href="#">Dantzariak</a>
+        <a href="#">Dantzak</a>
+        <a href="#">Ekitaldiak</a>
+        <a href="#">Deslogeatu</a>
+    </div>
 </body>
 </html>
