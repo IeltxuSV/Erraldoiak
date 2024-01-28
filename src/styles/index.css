@@ -75,4 +75,10 @@ h1 {
     .estekak {
         margin-top: 10px;
     }
+
+    .deslogeatu {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
 }
