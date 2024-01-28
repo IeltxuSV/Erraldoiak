@@ -16,7 +16,7 @@
     <h1>Erraldoiak</h1>
 
     <div class="estekak">
-        <a href="#" class="blokea">
+        <a href="dantzariak/" class="blokea">
             <h3>Dantzariak</h3>
             <i class="fa-solid fa-users"></i>
         </a>
