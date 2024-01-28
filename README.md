@@ -1,6 +1,14 @@
 # Erraldoiak
 
-Esta pagina web/base de datos es para gestionar a las personas, que bailan en una comparsa de gigantes. Como que bailes se saven como, que baile bailan en una actuaccion. 
+Esta pagina web/DB es para gestionar a las personas, que bailan en una comparsa de gigantes. Como que bailes se saven como, que baile bailan en una actuaccion. 
+
+
+## Documentacion
+
+Deve ejecutarse en un entorno donde se pueda mostrar archivos PHP, por ejemplo en un servidor apache. Ademas se necesita estar conectado a una base de datos. Para tener todo recomendacion instalar XAMPP.
+
+Index.php -> Pagina principal para enlazar todo los contenidos. 
+
 
 
 ## Autor
