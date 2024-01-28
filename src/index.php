@@ -9,28 +9,29 @@
     <title>Erraldoiak</title>
 
     <link rel="stylesheet" href="styles/index.css">
-
+    <script src="https://kit.fontawesome.com/dacbd6cb00.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <h1>Erraldoiak</h1>
 
     <div class="estekak">
-        <div class="blokea">
-            <a href="#">Dantzariak</a>
-            <!-- Icon -->
-        </div>
-        <div class="blokea">
-            <a href="#">Dantzak</a>
-            <!-- Icon -->
-        </div>
-        <div class="blokea">
-            <a href="#">Ekitaldiak</a>
-            <!-- Icon -->
-        </div>
+        <a href="#" class="blokea">
+            <h3>Dantzariak</h3>
+            <i class="fa-solid fa-users"></i>
+        </a>
+        <a href="#" class="blokea">
+            <h3>Dantzak</h3>
+            <i class="fa-solid fa-person-walking"></i>
+        </a>
+        <a href="#" class="blokea">
+            <h3>Ekitaldiak</h3>
+            <i class="fa-solid fa-archway"></i>
+        </a>
 
-        <a href="#">Deslogeatu</a>
-
+    </div>
+    <div class="deslogeatu">
+        <a href="#"><i class="fa-solid fa-right-from-bracket"></i></a>
     </div>
 </body>
 
