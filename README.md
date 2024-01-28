@@ -2,6 +2,7 @@
 
 Esta pagina web/DB es para gestionar a las personas, que bailan en una comparsa de gigantes. Como que bailes se saven como, que baile bailan en una actuaccion. 
 
+El idioma en el que se esta haciendo es en euskera. Pero la documentacion principal mente va a estaer en castelloano.
 
 ## Documentacion
 
