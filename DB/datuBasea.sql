@@ -57,3 +57,29 @@ CREATE TABLE IF NOT EXISTS EkitaldiaDantza (
     Neska3 INT,
     PRIMARY KEY (ID_ekitaldiaDantza)
 );
+
+
+-- Foreing Keys
+-- Dantzariak
+ALTER TABLE Dantzariak ADD CONSTRAINT fk_Dantz_erra FOREIGN KEY (Erra_Gustokoa) REFERENCES Erraldoiak (ID_erraldoia);
+ALTER TABLE Dantzariak ADD CONSTRAINT fk_Dantz_dant FOREIGN KEY (Dant_gustokoa) REFERENCES Dantzak (ID_dantzak);
+-- Dakiten Dantza
+ALTER TABLE DakitenDantza ADD CONSTRAINT fk_dakiten_dantzari FOREIGN KEY (Dantzari) REFERENCES Dantzariak (ID_dantzari);
+ALTER TABLE DakitenDantza ADD CONSTRAINT fk_dakiten_dantza FOREIGN KEY (Dantza) REFERENCES Dantzak (ID_dantzak);
+
+-- EkitaldianEramaten
+ALTER TABLE EkitaldianEramaten ADD CONSTRAINT fk_ekiera_ekit FOREIGN KEY (Ekitaldia) REFERENCES Ekitaldiak (ID_ekitaldia);
+ALTER TABLE EkitaldianEramaten ADD CONSTRAINT fk_ekiera_dantz FOREIGN KEY (Dantzari) REFERENCES Dantzariak (ID_dantzari);
+ALTER TABLE EkitaldianEramaten ADD CONSTRAINT fk_ekiera_erra FOREIGN KEY (Erraldoia) REFERENCES Erraldoiak (ID_erraldoia);
+
+-- EkitaldiaDanza
+ALTER TABLE EkitaldiaDantza ADD CONSTRAINT fk_ekitadantz_ekita FOREIGN KEY (Ekitaldia) REFERENCES Ekitaldiak (ID_ekitaldia);
+ALTER TABLE EkitaldiaDantza ADD CONSTRAINT fk_ekitadantz_dantz FOREIGN KEY (Dantza) REFERENCES Dantzak (ID_dantzak);
+
+-- EkitaldiaDantza
+ALTER TABLE EkitaldiaDantza ADD CONSTRAINT fk_ekitadantz_mut1 FOREIGN KEY (Mutila1) REFERENCES Dantzariak (ID_dantzari);
+ALTER TABLE EkitaldiaDantza ADD CONSTRAINT fk_ekitadantz_mut2 FOREIGN KEY (Mutila2) REFERENCES Dantzariak (ID_dantzari);
+ALTER TABLE EkitaldiaDantza ADD CONSTRAINT fk_ekitadantz_mut3 FOREIGN KEY (Mutila3) REFERENCES Dantzariak (ID_dantzari);
+ALTER TABLE EkitaldiaDantza ADD CONSTRAINT fk_ekitadantz_nes1 FOREIGN KEY (Neska1) REFERENCES Dantzariak (ID_dantzari);
+ALTER TABLE EkitaldiaDantza ADD CONSTRAINT fk_ekitadantz_nes2 FOREIGN KEY (Neska2) REFERENCES Dantzariak (ID_dantzari);
+ALTER TABLE EkitaldiaDantza ADD CONSTRAINT fk_ekitadantz_nes3 FOREIGN KEY (Neska3) REFERENCES Dantzariak (ID_dantzari);
