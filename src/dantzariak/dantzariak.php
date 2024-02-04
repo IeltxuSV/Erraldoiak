@@ -22,9 +22,19 @@ include("funtzioak.php")
     <h2>Dantzariak</h2>
 
     <div class="dantzariak">
-        <?php
-            mostrardantzaris($conn)
-        ?>
+        <ul>
+            <li>
+                <span class="izena tituloa">Izena</span>
+                <span class="dantza tituloa">Dantza Gustokoa</span>
+                <span class="erraldoia tituloa">Erraldoi Gustokoa</span>
+                <span class="ikusi tituloa">Ikusi</span>
+            </li>
+
+            <?php
+                mostrardantzaris($conn)
+            ?>
+        </ul>
+
     </div>
     <div class="botoiak">
         <div class="gehitu">

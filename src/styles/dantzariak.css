@@ -1,4 +1,98 @@
 h2 {
     text-align: center;
     font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.dantzariak {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+    color: black;
+    font-size: 25px;
+    padding: 0;
+}
+
+ul li {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: "Izena Dantza Erra Ikusi";
+    border-bottom: 3px solid #5f5e5e;
+    padding: 10px 0;
+}
+
+ul li:nth-of-type(even) {
+    background-color: #ecf0f1; 
+}
+
+/* Filas impares */
+ul li:nth-of-type(odd) {
+    background-color: #bdc3c7; 
+}
+
+ul li:first-of-type {
+    background-color: darkcyan; 
+    color: #fff; 
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+ul li:last-of-type {
+    border-bottom: none;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.izena {
+    grid-area: Izena;
+}
+
+.dantza {
+    grid-area: Dantza;
+}
+
+.erraldoia {
+    grid-area: Erra;
+}
+
+.ikusi {
+    grid-area: Ikusi;
+}
+
+.ikusi i {
+    font-size: 30px;
+    color: blue;
+}
+
+.izena, .dantza, .erraldoia, .ikusi {
+    text-align: center;
+}
+
+.tituloa {
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 716px) {
+
+    ul li {
+        display: grid;
+        grid-template-columns: 50%;
+        grid-template-rows: 50%;
+        grid-template-areas: "Izena Ikusi";
+    }
+
+    .dantza {
+        display: none;
+    }
+
+    .erraldoia {
+        display: none;
+    }
 }
