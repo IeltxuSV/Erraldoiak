@@ -1,3 +1,4 @@
 RewriteEngine On
 
 RewriteRule ^dantzariak/$ dantzariak/dantzariak.php [L]
+RewriteRule ^dantzaria-gehitu/$ dantzariak/gehitu.php [L]

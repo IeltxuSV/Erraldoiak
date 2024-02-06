@@ -38,7 +38,7 @@ include("funtzioak.php")
     </div>
     <div class="botoiak">
         <div class="gehitu">
-            <a href="#" class="botoia"><i class="fa-solid fa-circle-plus"></i></a>
+            <a href="../dantzaria-gehitu/" class="botoia"><i class="fa-solid fa-circle-plus"></i></a>
         </div>
 
         <div class="atzera">
