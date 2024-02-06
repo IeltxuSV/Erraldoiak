@@ -78,6 +78,10 @@ ul li:last-of-type {
     font-weight: bold;
 }
 
+.botoiak {
+    margin-top: 30px;
+}
+
 
 @media screen and (max-width: 716px) {
 
