@@ -4,7 +4,7 @@ function conectar() {
 
     $servername = "localhost";
     $username = "root";
-    $password = "";
+    $password = "root";
     $database = "erraldoiak";
 
     $conn = new mysqli($servername, $username, $password, $database);

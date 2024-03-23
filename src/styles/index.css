@@ -1,73 +1,56 @@
-h1 {
-    text-align: center;
-    font-size: 50px;
-    margin-top: 20px;
-    margin-bottom: 70px;
-    text-transform: uppercase;
+@import 'main.css';
+
+body {
+    background-color: whitesmoke;
+    max-width: 768px;
+    margin: auto;
 }
 
-.estekak {
+.eduki {
+    background-color: #4c4cc7;
+}
+
+.ongi-etorri {
+    color: whitesmoke;
+    padding-block: 20px;
+    padding-inline: 10px;
+    font-size: 25px;
+}
+
+.besteak {
+    background-color: whitesmoke;
+    border-radius: 20px 20px 0 0;
+    padding-top: 20px;
+    padding-inline: 10px;
+}
+
+.kudeatu h3{
+    font-size: 23px;
+}
+
+.blokeak {
     display: flex;
-    justify-content: space-around;
-    margin-block: 50px;
     flex-wrap: wrap;
 }
 
-.blokea {
-    background-color: darkcyan;
-    min-width: 250px;
+.kudeatu a {
     display: block;
-    color: white;
-    text-decoration: none;
-    border-radius: 13px;
+    width: calc((100vw / 2) - 30px);
+    height: calc((100vw / 2) - 30px);
+    border-radius: 14px;
+    background-color: #4c4cc7;
+    margin: 10px;
     text-align: center;
-    padding-bottom: 20px;
-    margin-inline: 50px;
-    margin-block: 20px;
 }
 
-.blokea h3 {
-    font-size: 30px;
-    margin-block: 5px;
+.kudeatu a i {
+    color: whitesmoke;
+    font-size: 5em;
+    padding-top: 10px;
 }
 
-.blokea i {
-    display: block;
-    font-size: 60px;
+.kudeatu a p {
+    color: whitesmoke;
+    font-size: 1.5em;
 }
 
-.deslogeatu {
-    display: flex;
-    justify-content: center;
-
-}
-
-.deslogeatu a {
-    background: #dd0909;
-    text-decoration: none;
-    color: white;
-    padding: 7px;
-    font-size: 50px;
-    border-radius: 5px;
-}
-
-.deslogeatu a i {
-    padding: 7px;
-}
-
-
-@media screen and (max-width: 716px){
-    h1 {
-        margin-bottom: 0px;
-    }
-
-    .estekak {
-        margin-top: 10px;
-    }
-
-    .deslogeatu {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-    }
-}

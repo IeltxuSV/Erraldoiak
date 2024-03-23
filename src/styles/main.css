@@ -1,54 +1,15 @@
+@font-face {
+    font-family: 'Gill Sanz'; /* Nombre que le das a tu fuente */
+    src: url('fonts/Gill-Sans.otf') format('opentype'); /* Ruta donde se encuentra tu archivo de fuente */
+  }
+  
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sanz';
 }
 
-body {
-    background: #252525;
-    color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.botoiak {
-    display: flex;
-    justify-content: center;
-    
-}
-
-.botoia {
+a {
     text-decoration: none;
-    color: white;
-    padding: 7px;
-    font-size: 50px;
-    border-radius: 5px;
-    margin-inline: 10px;
-}
-
-.botoia i {
-    padding: 7px;
-}
-
-.atzera a {
-    background: #5f5f5f;
-}
-
-.gehitu a {
-    background: #00a30e;
-}
-
-@media screen and (max-width: 716px) {
-    .botoia {
-        margin-inline: 0;
-    }
-    .atzera {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
-    }
-
-    .gehitu {
-        position: absolute;
-        bottom: 98px;
-        right: 10px;
-    }
 }
